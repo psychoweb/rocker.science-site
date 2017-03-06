@@ -1,0 +1,6 @@
+languageCode = "en-us"
+title = "Rocker Science"
+baseurl = "https://rocker.science/"
+
+publishDir = "../docs"
+ignoreFiles = [ "/keybase\\.txt$", "/CNAME$" ]
