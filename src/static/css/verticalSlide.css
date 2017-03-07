@@ -1,10 +1,6 @@
 /* Inspired from http://codepen.io/mrlowtay/pen/qERPmW/ */
 
 /*Vertical Sliding*/
-.slidingVertical{
-	display: inline;
-	text-indent: 8px;
-}
 .slidingVertical span{
 	animation: topToBottom 15s linear infinite 0s;
 	-ms-animation: topToBottom 15s linear infinite 0s;
