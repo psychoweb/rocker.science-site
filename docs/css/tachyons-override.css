@@ -1,0 +1,18 @@
+.poiretone { font-family:'Poiret One', cursive; }
+.eczar { font-family: 'Eczar', serif; }
+
+.b--light-blue { border-color: #43A1FC; }
+.light-blue { color: #43A1FC; }
+.bg-light-blue { background-color: #43A1FC; }
+.hover-light-blue:hover { color: #43A1FC; }
+.hover-light-blue:focus { color: #43A1FC; }
+.hover-bg-light-blue:hover { background-color: #43A1FC; }
+.hover-bg-light-blue:focus { background-color: #43A1FC; }
+
+.b--orange { border-color: #FFDA61; }
+.orange { color: #FFDA61; }
+.bg-orange { background-color: #FFDA61; }
+.hover-orange:hover { color: #FFDA61; }
+.hover-orange:focus { color: #FFDA61; }
+.hover-bg-orange:hover { background-color: #FFDA61; }
+.hover-bg-orange:focus { background-color: #FFDA61; }
