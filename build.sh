@@ -11,8 +11,10 @@ CURR_DIR="$(basename $(pwd))"
 REPO_NAME="rocker.science-site"
 
 if [[ "$REPO_DIR" == "$REPO_NAME" && "$CURR_DIR" == "$REPO_NAME" ]] ; then
-    echo "we can safely delete things."
-    rm -rf docs
+    if [[ $# == 0 ]] ; then 
+      echo "we can safely delete things."
+      rm -rf docs
+    fi
     hugo -s src/ $@
     cp resources/* docs/
 else
