@@ -16,7 +16,6 @@ if [[ "$REPO_DIR" == "$REPO_NAME" && "$CURR_DIR" == "$REPO_NAME" ]] ; then
       rm -rf docs
     fi
     hugo -s src/ $@
-    cp resources/* docs/
 else
     echo "something is not right"
 fi

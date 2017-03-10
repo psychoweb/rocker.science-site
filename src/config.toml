@@ -3,7 +3,6 @@ title = "Rocker Science"
 baseurl = "https://rocker.science/"
 
 publishDir = "../docs"
-ignoreFiles = [ "/keybase\\.txt$", "/CNAME$" ]
 
 [params]
   linkedinProfileURL = "https://www.linkedin.com/in/paolo-serra/"
