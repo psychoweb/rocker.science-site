@@ -15,7 +15,7 @@ if [[ "$REPO_DIR" == "$REPO_NAME" && "$CURR_DIR" == "$REPO_NAME" ]] ; then
       echo "we can safely delete things."
       rm -rf docs
     fi
-    hugo -s src/ $@
+    hugo $@
 else
     echo "something is not right"
 fi
