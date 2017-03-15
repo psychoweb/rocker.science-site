@@ -18,3 +18,16 @@
 .hover-orange:focus { color: #FFDA61; }
 .hover-bg-orange:hover { background-color: #FFDA61; }
 .hover-bg-orange:focus { background-color: #FFDA61; }
+
+
+.slash-prefix:before, .slash-separated + .slash-separated:before {
+    content: "/";
+}
+
+.orange-prefix:before {
+    color: #FFDA61;
+}
+
+.b-prefix:before {
+    font-weight: bold;
+}
