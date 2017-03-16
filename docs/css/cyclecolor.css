@@ -1,6 +1,6 @@
 /* Inspired from http://codepen.io/mrlowtay/pen/qERPmW/ */
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 37em) {
 .cycleColor a{
 	animation: ChangeColor 15s linear infinite 0s;
 	-ms-animation: ChangeColor 15s linear infinite 0s;
