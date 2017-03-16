@@ -26,14 +26,8 @@
           </svg>
         </a>
         <!--        <img src="https://s.gravatar.com/avatar/21761613a760463debd076b6f32f32cf.png?s=200" class="mw-100" /> -->
-        <div>
-            <div class="cycleUnderline pa2-m pa4-l fl-ns f4 f3-m f2-l">
-                <a class="link db-ns pb1-m pb2-l orange icon-linkedin-squared" href="{{ .Site.Params.linkedinProfileURL }}" title="My resume"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-key" href="{{ .Site.Params.keybaseProfileURL }}" title="View my public PGP key and proofs at keybase.io"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-note-beamed" href="{{ .Site.Params.lastfmProfileURL }}" title="See my listening habits at last.fm"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-chess-knight" href="{{ .Site.Params.lichessProfileURL }}" title="Play a game with me at lichess.org"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-suit-clubs" href="#"></a>
-            </div>
+        <div class="flex-ns">
+          <div class="order-1-ns">
             <h1 class="f-subheadline-m f-headline-l">Hi, I'm Paolo.</h1>
             <h2 class="dn db-ns f2-m f-subheadline-l">I am&nbsp;
           <span class="slidingVertical orange">
@@ -45,6 +39,14 @@
           </span>
         </h2>
             <h2 class="dn-ns">I am an IT analyst with a passion for Security problems.</h2>
+        </div>
+            <div class="order-0-ns self-center-ns cycleUnderline pa2-m pa4-l f4 f3-m f2-l">
+                <a class="link db-ns pb1-m pb2-l orange icon-linkedin-squared" href="{{ .Site.Params.linkedinProfileURL }}" title="My resume"></a>
+                <a class="link db-ns pb1-m pb2-l orange icon-key" href="{{ .Site.Params.keybaseProfileURL }}" title="View my public PGP key and proofs at keybase.io"></a>
+                <a class="link db-ns pb1-m pb2-l orange icon-note-beamed" href="{{ .Site.Params.lastfmProfileURL }}" title="See my listening habits at last.fm"></a>
+                <a class="link db-ns pb1-m pb2-l orange icon-chess-knight" href="{{ .Site.Params.lichessProfileURL }}" title="Play a game with me at lichess.org"></a>
+                <a class="link db-ns pb1-m pb2-l orange icon-suit-clubs" href="#"></a>
+            </div>
         </div>
         <!--<p class="f4-m f3-l montserrat">(I also like to <span class="i">mess up</span> with things in the learning!)</p>-->
     </div>
