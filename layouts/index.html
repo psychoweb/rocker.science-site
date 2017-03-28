@@ -31,22 +31,14 @@
             <h1 class="f-subheadline-m f-headline-l">Hi, I'm Paolo.</h1>
             <h2 class="dn db-ns f2-m f-subheadline-l">I am&nbsp;
           <span class="slidingVertical orange">
-            <span class="absolute o-0 overflow-hidden">an IT problem solver</span>
-            <span class="absolute o-0 overflow-hidden">a Security enthusiast</span>
-            <span class="absolute o-0 overflow-hidden">a multi-instrument musician</span>
-            <span class="absolute o-0 overflow-hidden">a chess variants player</span>
-            <span class="absolute o-0 overflow-hidden">a novice cardist</span>
-          </span>
+            {{ range $.Site.Data.index.interests.Interests}}<span class="absolute o-0 overflow-hidden">{{ .Description }}</span>
+            {{ end }}</span>
         </h2>
             <h2 class="dn-ns">I am an IT analyst with a passion for Security problems.</h2>
         </div>
             <div class="order-0-ns self-center-ns cycleColor pr3-m pr4-l f3 f2-ns">
-                <a class="link db-ns pb1-m pb2-l orange icon-linkedin-squared" href="{{ .Site.Params.linkedinProfileURL }}" title="My resume"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-key" href="{{ .Site.Params.keybaseProfileURL }}" title="View my public PGP key and proofs at keybase.io"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-note-beamed" href="{{ .Site.Params.lastfmProfileURL }}" title="See my listening habits at last.fm"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-chess-knight" href="{{ .Site.Params.lichessProfileURL }}" title="Play a game with me at lichess.org"></a>
-                <a class="link db-ns pb1-m pb2-l orange icon-suit-clubs" href="#"></a>
-            </div>
+          {{ range $.Site.Data.index.interests.Interests}}<a class="link db-ns pb1-m pb2-l orange {{ .Icon }}" href="{{ .URL }}" title="{{ .Title }}"></a>
+          {{ end }}</div>
         </div>
         <!--<p class="f4-m f3-l montserrat">(I also like to <span class="i">mess up</span> with things in the learning!)</p>-->
     </div>
